@@ -115,6 +115,22 @@
           
     }
   }
+  .logo{
+    width: 150px;
+  }
+
+  footer div a .logo{
+    width: 200px;
+    margin: 30px;
+    align-items: center;
+  }
+  
+  @media (max-width: 767px) {
+    footer div a .logo{
+      margin: auto;
+
+    }
+    }
 
   @media (min-width: 1250px) {
     .caja-gris .text-center {
@@ -134,14 +150,19 @@
 
 }
 @media (max-width:1249px) and ( min-width:836px) {
+  .caja-gris h1{
+    margin-top: 60px;
+    font-size: 40px;
+  }
   .caja-gris h1,
   .caja-gris p,
   .caja-gris button {
 
     text-align: center;
-    margin-right:53%;
+    margin-right:50%;
     margin-left: 180px;
   }
+ 
 }
 @media (max-width:835px) and ( min-width:671px) {
   .caja-gris h1,
@@ -171,5 +192,12 @@
     font-size: 20px;
 
 
+  }
+}
+@media (min-width: 768px){
+
+  .md\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    padding: 5%;
   }
 }

@@ -7,29 +7,49 @@
     <title>AusentSoft-iniciar sesión o Registrar</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.tailwindcss.com"></script>
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
 </head>
 
-<body>
+<body class=" font-['Poppins'] ">
 
 
 
     <form action="">
-        <div class="grid grid-cols-12 grid-rows-12 justify-center ">
+        <div class="grid grid-cols-2  justify-center  ">
 
-            <div class="bg-red-200  row-span-8">
-                <img src="./imagenes/Logo-Azul.png" alt="" class="w-80">
-                <h2>AusentSoft te ayuda a que estes en armonia con tu empresa y todo lo tengas a la mano</h2>
+            <div class=" col-span-2 mt-20 md:col-span-2  lg:col-span-1 ">
+                <div class="max-w-xl m-auto mx-8 mt-4 ">
+                    <img src="./imagenes/Logo-Azul.png" alt="" class="w-80 mx-auto">
+                <p class="ml-2 mt-5 text-left">"Facilitamos la armonía en tu empresa. Ofrecemos herramientas y recursos para tu éxito. Contamos contigo en cada paso del camino."</p>
 
+                </div>
             </div>
 
-            <div class="bg-green-200 row-span-4 ">
-                <div class="">
-                    <input type="text" placeholder="Ingresa tu email">
+            <div class=" col-span-2 mt-3 md:col-span-2 lg:col-span-1">
+                <div class="flex flex-col max-w-xl m-auto mx-8 mt-[10%]">
+                    <input type="text" placeholder="Email" class="my-1  h-8 rounded-md shadow-lg p-5 shadow-blue-800/50" >
+                    <input type="password" placeholder="Contraseña"  class="my-1 h-8 rounded-md shadow-lg p-5 shadow-blue-800/50">
+                    <button class="bg-blue-800 rounded-md text-white py-1 mt-3 hover:bg-blue-700 shadow-lg hover:duration-700 shadow-blue-500/50">Iniciar Sesión</button>
+                
+
+                    <div class="flex justify-evenly">
+                        <p class="text-sm mt-5">¿No tienes cuenta? <a href="" class="underline hover:text-blue-800 hover:duration-400">Registrate Aqui</a></p>
+                        <a href="" class="underline text-sm mt-5 hover:text-blue-800 hover:duration-400">Recuperar Contraseña</a></p>
+                    </div>
+                    
                 </div>
                 
             </div>
 
-        </div>
+        </div> 
     </form>
 
 

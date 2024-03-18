@@ -1,0 +1,8 @@
+VIDEO: https://www.youtube.com/watch?v=NmkY4JgS21A&t=12s
+
+
+-Se instala packjason
+-luego instalamos express => npm i express
+-luego instalamos reiniciador de servidor automatico =>  npm i nodemon -D 
+-para ejecutar el servidor => npm run dev
+-luego instalamos modulo que nos permite ver las peticiones que nos van llegando al backend => npm i morgan

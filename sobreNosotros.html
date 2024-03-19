@@ -29,6 +29,7 @@
 
 
     <header class=" text-white  font-medium  h-[50px]">
+    <header class="bg-blue-400 text-white  font-medium h-1">
 
         <!-- NAVBAR -->
 
@@ -49,7 +50,8 @@
 
             <ul
                 class="md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-blue-800 w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
-                <li><a href="sobreNosotros.html" class="mx-4 my-6 md:my-0 hover:text-sky-300  hover:underline hover:duration-500">Sobre
+                <li><a href="sobreNosotros.html"
+                        class="mx-4 my-6 md:my-0 hover:text-sky-300  hover:underline hover:duration-500">Sobre
                         Nosotros</a></li>
                 <li><a href="servicios.html"
                         class="mx-4 my-6 md:my-0 hover:text-sky-300  hover:underline hover:duration-500">Servicios</a>
@@ -74,6 +76,11 @@
 
         </nav> 
 
+
+
+        <!-- SESION DE INFORMACION DE AUSENTSOFT -->
+
+
     </header>
 
 
@@ -84,8 +91,149 @@
 
 
 
-
+    <main>
+        <h2 class="text-black text-center my-12 md:my-10">Corporaciones que colaboran con nosotros</h2>
+        
    
+
+        <div class="grid grid-cols-2 md:grid-cols-4">
+            <div class=" text-center py-5"><img class="w-[70%] md:w-[40%] m-auto" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Jira_Logo.svg/2560px-Jira_Logo.svg.png" alt=""></div>
+            <div class=" text-center py-5"><img class="w-[70%] md:w-[40%] m-auto" src="https://1000marcas.net/wp-content/uploads/2021/02/Logo-Duolingo.png" alt=""></div>
+            <div class=" text-center py-5"><img class="w-[70%] md:w-[40%] m-auto pt-5" src="data:image/png;base64,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" alt=""></div>
+            <div class=" text-center py-5"><img class="w-[70%] md:w-[40%] m-auto pt-7" src="https://upload.wikimedia.org/wikipedia/commons/8/8d/Adobe_Corporate_Logo.png" alt=""></div>
+        </div>
+
+ 
+
+        <div class="mt-12">
+            <div class=" text-black text-center  text-lg md:text-3xl font-bold m-3 ">AusentSoft te ahorra mucho por
+                nada a cambio </div>
+
+
+
+
+
+            <!-- COMPONENTES DE CARD -->
+
+
+            <div class="grid justify-center md:grid-cols-3 gap-8 m-5">
+
+                <div class=" flex justify-center  text-center ">
+                    <div
+                        class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-200 dark:border-gray-700">
+
+                        <a href="#">
+                            <img class="rounded-t-lg"
+                                src="https://images.pexels.com/photos/3975590/pexels-photo-3975590.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                alt="" />
+                        </a>
+
+
+                        <div class="p-5">
+                            <a href="#">
+                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-black dark:text-black">
+                                    Solicitud de Vacaciones y Permisos</h5>
+                            </a>
+                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-600">Permite a los empleados
+                                solicitar tiempo libre y Permisos de manera fácil y rápida y desde cualquier lugar.</p>
+                            <a href="#"
+                                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                Mas información
+
+                                <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                                </svg>
+
+                            </a>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+
+                <!-- 2 -->
+
+                <div class=" flex justify-center  text-center ">
+                    <div
+                        class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-200 dark:border-gray-700">
+                        <a href="#">
+                            <img class="rounded-t-lg"
+                                src="https://media.istockphoto.com/id/1364554234/es/foto/hombre-de-negocios-durante-una-reuni%C3%B3n-de-videollamada.jpg?s=612x612&w=0&k=20&c=8GAQYIewnpS5UjVgUpu19FvnPG7s5YvWKgJhtvvuFIs="
+                                alt="" />
+                        </a>
+                        <div class="p-5">
+                            <a href="#">
+                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-black dark:text-black">
+                                    Aprobación y Gestión de Solicitudes</h5>
+                            </a>
+                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-600">Los gerentes podran revisar y
+                                apruebar las solicitudes de tiempo libre, evitando conflictos de planificación.</p>
+                            <a href="#"
+                                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                Mas información
+                                <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+                <!-- 3 -->
+
+
+                <div class=" flex justify-center  text-center ">
+                    <div
+                        class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-200 dark:border-gray-700">
+                        <a href="#">
+                            <img class="rounded-t-lg"
+                                src="https://media.istockphoto.com/id/1407714026/es/foto/mujer-de-negocios-irreconocible-que-trabaja-en-una-tableta-digital-en-la-oficina-moderna.jpg?s=612x612&w=0&k=20&c=AwSRi91AHPTPbtb1a_Xvp1v1KdhUkJV4rWKS3KHNEhc="
+                                alt="" />
+                        </a>
+                        <div class="p-5">
+                            <a href="#">
+                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-black dark:text-black">
+                                    Seguimiento y Gestión de Saldo de Tiempo</h5>
+                            </a>
+                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-600">El software realiza un
+                                seguimiento automático del tiempo libre utilizado y disponible para cada empleado.</p>
+                            <a href="#"
+                                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                Mas información
+                                <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+
+            </div>
+
+
+
+
+        </div>
+
+
+    </main>
+
+
 
     <footer class="bg-white dark:bg-gray-200 mt-9 md:mt-2 ">
         <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
@@ -113,7 +261,7 @@
                         </h2>
                         <ul class="text-gray-500 dark:text-gray-600 font-medium">
                             <li class="mb-4">
-                                <a href="https://github.com/themesberg/flowbite" class="hover:underline ">Github</a>
+                                <a href="https://github.com/Kevinpava/ausentSoft-proyect" class="hover:underline ">Github</a>
                             </li>
                             <li>
                                 <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Discord</a>
@@ -124,10 +272,10 @@
                         <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-black">Legal</h2>
                         <ul class="text-gray-500 dark:text-gray-600 font-medium">
                             <li class="mb-4">
-                                <a href="#" class="hover:underline">Privacy Policy</a>
+                                <a href="#" class="hover:underline">Politicas de privacidad</a>
                             </li>
                             <li>
-                                <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+                                <a href="#" class="hover:underline">Terminos &amp; Condiciones</a>
                             </li>
                         </ul>
                     </div>
@@ -135,8 +283,8 @@
             </div>
             <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
             <div class="sm:flex sm:items-center sm:justify-between">
-                <span class="text-sm text-gray-500 sm:text-center dark:text-black">© 2023 <a
-                        href="https://flowbite.com/" class="hover:underline">Flowbite™</a>. All Rights Reserved.
+                <span class="text-sm text-gray-500 sm:text-center dark:text-black">© 2024 <a
+                        href="https://flowbite.com/" class="hover:underline">AusentSoft</a>. Derechos de permisos y reservas.
                 </span>
                 <div class="flex mt-4 sm:justify-center sm:mt-0">
                     <a href="#" class="text-black hover:text-gray-900 dark:hover:text-white">
@@ -146,7 +294,7 @@
                                 d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z"
                                 clip-rule="evenodd" />
                         </svg>
-                        <span class="sr-only">Facebook page</span>
+                        <span class="sr-only">Facebook</span>
                     </a>
                     <a href="#" class="text-black hover:text-gray-900 dark:hover:text-white ms-5">
                         <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
@@ -154,7 +302,7 @@
                             <path
                                 d="M16.942 1.556a16.3 16.3 0 0 0-4.126-1.3 12.04 12.04 0 0 0-.529 1.1 15.175 15.175 0 0 0-4.573 0 11.585 11.585 0 0 0-.535-1.1 16.274 16.274 0 0 0-4.129 1.3A17.392 17.392 0 0 0 .182 13.218a15.785 15.785 0 0 0 4.963 2.521c.41-.564.773-1.16 1.084-1.785a10.63 10.63 0 0 1-1.706-.83c.143-.106.283-.217.418-.33a11.664 11.664 0 0 0 10.118 0c.137.113.277.224.418.33-.544.328-1.116.606-1.71.832a12.52 12.52 0 0 0 1.084 1.785 16.46 16.46 0 0 0 5.064-2.595 17.286 17.286 0 0 0-2.973-11.59ZM6.678 10.813a1.941 1.941 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.919 1.919 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Zm6.644 0a1.94 1.94 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.918 1.918 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Z" />
                         </svg>
-                        <span class="sr-only">Discord community</span>
+                        <span class="sr-only">Discord </span>
                     </a>
                     <a href="#" class="text-black hover:text-gray-900 dark:hover:text-white ms-5">
                         <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"

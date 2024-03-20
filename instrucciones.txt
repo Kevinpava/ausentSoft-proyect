@@ -6,3 +6,10 @@ VIDEO: https://www.youtube.com/watch?v=NmkY4JgS21A&t=12s
 -luego instalamos reiniciador de servidor automatico =>  npm i nodemon -D 
 -para ejecutar el servidor => npm run dev
 -luego instalamos modulo que nos permite ver las peticiones que nos van llegando al backend => npm i morgan
+-Instalar MongoDB: https://www.mongodb.com/try/download/community
+
+
+
+para ejecutar el servidor => npm run dev
+
+Minuto del video: 18:07

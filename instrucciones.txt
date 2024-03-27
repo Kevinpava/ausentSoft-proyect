@@ -12,4 +12,4 @@ VIDEO: https://www.youtube.com/watch?v=NmkY4JgS21A&t=12s
 
 para ejecutar el servidor => npm run dev
 
-Minuto del video: 18:07
+Minuto del video: 39:44
